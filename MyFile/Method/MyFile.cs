@@ -20,7 +20,7 @@ namespace MyFile.Method
 
         public override void Append()
         {
-            throw new NotImplementedException("无append方法");
+            File.AppendAllText(filePath, msg);
         }
     }
 }
